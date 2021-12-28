@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  height: 100vh;
+  /* border: 2px solid black; */
+  background-image: linear-gradient(
+    rgba(54, 12, 54, 0.452),
+    rgba(141, 69, 141, 0.788)
+  );
+}
+
+.navbar {
+  /* border: 1px solid black; */
+  display: flex;
+  height: 5vmax;
+  padding: 1vmax;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.logoBox {
+  /* border: 1px solid black; */
+  margin-left: 3vmax;
+  display: flex;
+  position: relative;
+  top: 14px;
+  left: 53px;
+}
+
+.logoImage {
+  /* font-size: 5vmax; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoText {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2vmax;
+  font-weight: bolder;
+}
+
+/* mid part */
+.midPart {
+  display: flex;
+  /* flex-wrap: wrap;  */
+  height: 70vh;
+  color: white;
+}
+
+.SampleImages {
+  width: 80%;
+}
+
+.SampleImages > img {
+  width: 45vw;
+  margin-left: 25px;
+  border-radius: 55px;
+}
+.sampleText {
+  /* width: 50%; */
+  margin-top: 80px;
+  font-weight: bolder;
+  margin-left: 25px;
+}
+
+.sampleText > h1 {
+  margin-bottom: 15px;
+  font-size: 2vmax;
+  font-weight: bolder;
+}
+
+.sampleText > p {
+  font-size: 1.1vmax;
+  margin-bottom: 15px;
+}
+
+.sampleText > button {
+  border-radius: 25px;
+  border-style: none;
+  font-size: 1.5vmax;
+  width: 15vmax;
+  height: 2.5vmax;
+  margin-top: 15px;
+  color: rgb(75, 72, 72);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row-reverse;
+  /* border: 2px solid black; */
+  height: 6vmax;
+  align-items: center;
+  color: white;
+}
+
+.btns {
+  margin-right: 35px;
+}
+
+.btns > button {
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.753);
+  background-color: rgba(0, 0, 0, 0.473);
+}
